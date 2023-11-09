@@ -7,6 +7,8 @@ void DrawMain()
 
     DrawLine(-320, 0, 319, 0, kColorGray);
     DrawLine(0, -240, 0, 239, kColorGray);
+    //線を追加
+    DrawLine(0, -240, 0, 239, kColorGray);
 
     for (int i = 0; i < 5; i++) {
         FillCircle(i*100-200, -190, 30, kColorBlue, M_PI/6+i*M_PI/2, -M_PI/6+i*M_PI/2);
